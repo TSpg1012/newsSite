@@ -1,0 +1,28 @@
+@media (max-width: 988px) {
+  .news {
+    flex-wrap: wrap;
+    .left {
+      .bottom {
+        padding: 10px 0;
+      }
+      .top {
+        p:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+    .right {
+      width: 100% !important;
+    }
+  }
+}
+
+.trio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

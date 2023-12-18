@@ -1,0 +1,27 @@
+nav {
+  background-color: #102039;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0;
+}
+nav ul div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+nav ul div img {
+  height: 30px;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=navbar.css.map */
